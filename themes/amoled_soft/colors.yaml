@@ -1,0 +1,80 @@
+palette:
+  rosewater: &rosewater "#6A88A0"    # steel accent (was pink)
+  flamingo:  &flamingo  "#6A88A0"    # steel accent (was pink)
+  pink:      &pink      "#6A88A0"    # steel accent (was pink)
+  mauve:     &mauve     "#6A88A0"    # muted steel accent
+  red:       &red       "#D46070"    # less pastel, more vibrant
+  maroon:    &maroon    "#B87880"
+  peach:     &peach     "#C89878"
+  yellow:    &yellow    "#B8B8B8"    # light neutral for outlines
+  green:     &green     "#78A878"
+  teal:      &teal      "#70A898"
+  sky:       &sky       "#78B0C0"
+  sapphire:  &sapphire  "#6898B8"
+  blue:      &blue      "#6888B8"
+  lavender:  &lavender  "#9098C8"
+  text:      &text      "#CCCCCC"
+  subtext1:  &subtext1  "#A0A0A0"
+  subtext0:  &subtext0  "#808080"
+  overlay2:  &overlay2  "#6A6A6A"
+  overlay1:  &overlay1  "#5C5C5C"
+  overlay0:  &overlay0  "#525252"
+  surface2:  &surface2  "#484848"
+  surface1:  &surface1  "#353535"
+  surface0:  &surface0  "#282828"
+  base:      &base      "#0E0E0E"
+  mantle:    &mantle    "#1C1C1C"
+  crust:     &crust     "#181818"
+
+shapes:
+  "#000000": ""
+  "#CC2814": *red
+  "#FC3C1E": ""
+  "#F0EB36": ""
+  "#061C9D": ""
+  "#0F5FE2": ""
+  "#8C93E4": ""
+  "#036B7A": ""
+  "#404040": ""
+  "#828282": ""
+  "#B4B4B4": ""
+  "#E6E6E6": ""
+  "#36495A": *base
+  "#FFFFFF": ""
+  "#2C3D4D": *base
+  "#122029": *base
+  "#70C399": ""
+  "#F8634D": *mauve
+  "#DCDCC8": *overlay2
+  "#C83232": *red
+  "#3C3C00": *base
+  "#FFFF1E": *peach
+  "#5F707C": *mauve
+  "#6F8CA0": *mauve    # intellipan outline - steel blue
+  "#68E6FA": *mauve
+  "#545454": *surface0
+  "#6E6E6E": *base
+  "#24A731": *green
+
+text:
+  "#b7bdf8": ""
+  "#68e6fa": *mauve
+  "#969696": *text
+  "#718ca2": *text
+  "#B4B4B4": *text
+  "#6f8ca0": *surface2
+  "#828282": *text
+  "#e6e6e6": *mauve
+  "#286442": *base
+  "#ffffff": *text
+  "#c8c800": *peach
+  "#70c399": *mauve
+  "#646464": *mantle
+  "#f8634d": *mauve
+  "#c8c8c8": *text
+  "#8c9ba0": *mauve
+  "#9f9f9f": ""
+  "#ffffc8": *rosewater
+  "#e6e6be": *text
+  "#e6c896": *text
+  "#a01607": *base
