@@ -1,12 +1,12 @@
-# AMOLED Soft for Voicemeeter
+# AMOLED Soft for VoiceMeeter Standard
 
 <p align="center">
   <img src="screenshot.png" alt="AMOLED Soft theme screenshot" width="800"/>
 </p>
 
-A minimal, dark AMOLED theme for Voicemeeter Potato with soft matte backgrounds and muted steel accents. Designed to be easy on the eyes with a clean, borderless look.
+A minimal, dark AMOLED theme for Voicemeeter Standard with soft matte backgrounds and muted steel accents. Designed to be easy on the eyes with a clean, borderless look.
 
-Forked from [Catppuccin Mocha for Voicemeeter](https://github.com/emkaix/voicemeeter-theme-catppuccin-mocha).
+Forked from [AMOLED Soft for Voicemeeter](https://github.com/vmx2f/voicemeeter-theme-amoled).
 
 ---
 
@@ -14,12 +14,12 @@ Forked from [Catppuccin Mocha for Voicemeeter](https://github.com/emkaix/voiceme
 
 This theme is meant to be used with the [VoiceMeeter Chroma](https://github.com/emkaix/voicemeeter-chroma) mod.
 
-1. Copy the `themes/amoled_soft` folder to `C:\Users\<USER>\Documents\Voicemeeter\themes\`
+1. Copy the `themes/amoled_soft` folder to `C:\Users\%USERNAME%\Documents\Voicemeeter\themes\`
 2. Set the theme in `vmchroma.yaml`:
 
 ```yaml
 theme:
-  potato: amoled_soft
+  default: amoled_soft
 ```
 
 3. Launch Voicemeeter with Chroma mod.
@@ -46,7 +46,7 @@ The `.bmp` files are the background images Voicemeeter draws its UI on top of. Y
 A Figma template is available if you want a quick starting point:
 
 <p align="center">
-  <a href="https://www.figma.com/community/file/1656845961678418451">
+  <a href="https://www.figma.com/community/file/1686118977421446817">
     <img src="https://img.shields.io/badge/Figma-Template-6A88A0?style=for-the-badge&logo=figma" alt="Figma template"/>
   </a>
 </p>
