@@ -4,9 +4,11 @@
   <img src="screenshot.png" alt="AMOLED Soft theme screenshot" width="800"/>
 </p>
 
-A minimal, dark AMOLED theme for Voicemeeter Standard with soft matte backgrounds and muted steel accents. Designed to be easy on the eyes with a clean, borderless look.
+A minimal, dark AMOLED theme for VoiceMeeter Standard with soft matte backgrounds and muted steel accents. Designed to be easy on the eyes with a clean, borderless look.
 
-Forked from [AMOLED Soft for Voicemeeter](https://github.com/vmx2f/voicemeeter-theme-amoled).
+Forked from [AMOLED Soft for VoiceMeeter](https://github.com/vmx2f/voicemeeter-theme-amoled).
+
+The color palette ([colors.yaml](themes/amoled_soft/colors.yaml)) is unchanged from the original — full credit to [vmx2f](https://github.com/vmx2f) for the visual design. This fork adds a Standard version layout, hand-traced over the stock VoiceMeeter Standard UI (using vmx2f's Figma template as a structural starting point).
 
 ---
 
@@ -22,7 +24,7 @@ theme:
   default: amoled_soft
 ```
 
-3. Launch Voicemeeter with Chroma mod.
+3. Launch VoiceMeeter with Chroma mod.
 
 ## Palette
 
@@ -41,7 +43,7 @@ theme:
 
 ## Customizing the BMPs
 
-The `.bmp` files are the background images Voicemeeter draws its UI on top of. You can edit them in any image editor to create your own look.
+The `.bmp` files are the background images VoiceMeeter draws its UI on top of. You can edit them in any image editor to create your own look.
 
 A Figma template is available if you want a quick starting point:
 
@@ -65,5 +67,5 @@ The template contains editable layers for the background panels — just tweak w
 5. Go to **File > Save As** and select **BMP**
 6. In the configuration pop-up, select **24-bit**
 7. Save with the same filename as the original `.bmp`
-8. Copy the file into the theme folder and restart Voicemeeter
+8. Copy the file into the theme folder and restart VoiceMeeter
 
